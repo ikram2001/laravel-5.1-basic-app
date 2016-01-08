@@ -1,0 +1,19 @@
+php artisan key: OHvWGYftu9Dv0TvSdNlUCsFYVxLXwFC7
+
+Commands:
+ikramhassan@NX00522:~$ cd /home/ikramhassan/www/laravel/
+ikramhassan@NX00522:~/www/laravel$ php artisan route:list
+
+ikramhassan@NX00522:~/www/laravel$ php artisan
+Laravel Framework version 5.1.28 (LTS)
+
+
+ikramhassan@NX00522:~/www/laravel$ php artisan make:model task -m
+=>Model created successfully.
+=>Created Migration: 2016_01_06_145251_create_tasks_table
+
+ikramhassan@NX00522:~/www/laravel$ php artisan migrate:status
+ikramhassan@NX00522:~/www/laravel$ php artisan migrate:rollback
+ikramhassan@NX00522:~/www/laravel$ php artisan migrate
+
+

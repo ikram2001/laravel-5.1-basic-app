@@ -1,0 +1,94 @@
+html, body {
+    height: 100%;
+}            
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    font-weight: 100;
+    font-family: 'Lato';
+}
+
+.title {
+    font-size: 96px;
+    color: #245269;
+}
+.heading{
+    font-size: 30px;
+    color: #245269;
+}
+
+.container {
+    text-align: center;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.content {
+    padding: 70px;
+    margin-top: 40px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    width: 35%;
+    border: 1px solid;
+}
+
+.navbar{
+    margin: 20px 0px 20px 0px;
+}
+
+a{
+    color: #245269;
+    text-decoration: underline;
+}
+a:hover{
+    text-decoration: none;
+}
+form a{
+    margin-right: 35px;
+}
+input[type=text]{
+    padding: 4px;
+    margin: 4px;
+    background-color: #eee;
+    border: 1px solid #245269;
+    height: 22px;
+    width: 270px;
+}
+textarea{
+    padding: 4px;
+    margin: 4px;
+    background-color: #eee;
+    border: 1px solid #245269;
+}
+input[type=submit]{
+    padding: 4px;
+    margin: 4px;
+    color: #fff;
+    width: 120px;
+    height: 30px;
+    background-color: #245269;
+    border: 1px solid #666;
+}
+label{
+    font-size: 14px;
+    color: #245269;
+    font-weight:bold;
+}
+button{
+    background-color: #444;
+    color: #fff;
+    width: 100px;                
+}
+h2{
+    color: #245269;
+}
+.alert-info{
+    color: green;
+}
+.alert-danger{
+    color:red;
+}
